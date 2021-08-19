@@ -17,6 +17,8 @@ public class TipoPrimitivo {
 		long populacaoMundial = 7000000000L;
 		
 		float saldoConta = 1030.43F;
+		
+		System.out.println(""+precoProduto+"\n"+alunoMatriculado+"\n"+clienteBloqueado+"\n"+turmaAluno1+"\n"+tipoCliente+
+				"\n"+simbolo+"\n"+populacaoUberlandia+"\n"+populacaoMundial+"\n"+saldoConta);
 	}
-
 }
