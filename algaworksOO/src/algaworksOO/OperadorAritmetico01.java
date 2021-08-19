@@ -4,6 +4,7 @@ public class OperadorAritmetico01 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		// kakaka
 		int notaAluno1 = 99;
 		int notaAluno2 = 67;
 		int notaAluno3 = 78;
