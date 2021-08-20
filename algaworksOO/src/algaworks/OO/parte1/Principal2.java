@@ -4,22 +4,17 @@ public class Principal2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		Proprietario dono1 = new Proprietario();
+		dono1.nome = "João da Silva";
+		
 		Carro meuCarro = new Carro();
-		meuCarro.anoDeFabricacao = 2019;
-		meuCarro.cor = "Prata";
-		meuCarro.fabricante = "Fiat";
 		meuCarro.modelo = "Argo";
-		//meuCarro.dono = dono;
 		
+		Carro seuCarro = new Carro();
+		seuCarro.modelo = "Civic";
 		
-		meuCarro.dono = new Proprietario();
-		meuCarro.dono.nome = "joão da Silva";
-		meuCarro.dono.cpf = "999.333.000-23";
-		meuCarro.dono.idade = 25;
-		meuCarro.dono.logradouro = "Rua João Pinheiro, 02";
-		meuCarro.dono.bairro = "Centro";
-		meuCarro.dono.cidade = "Uberlandia";
+		meuCarro.ligar();
+		seuCarro.ligar();
 		
 	}
 
