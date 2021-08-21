@@ -8,11 +8,21 @@ public class TestesClassesWrapper {
 		// Byte, Short, Intenger, Long, Float, Double e Character
 		
 		int x = 5;
-		Integer i = new Integer(5);
+		Integer i = 5;
 	
 		String valor = "15.5";
 		//Float v = new valueOf(valor); //Float.valueOf((float)value).
 		int idade = Integer.parseInt("27");
+		
+		
+		Integer i1 = 127;
+		Integer i2 = 127;
+		
+		Integer i3 = 128;
+		Integer i4 = 128;
+		
+		System.out.println(i1.equals(i2));
+		System.out.println(i3.equals(i4));
 		
 		try {
 			double custo = Double.parseDouble("Vinte e tres reais");
