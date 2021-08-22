@@ -11,7 +11,7 @@ public class TestesClassesWrapper {
 		Integer i = 5;
 	
 		String valor = "15.5";
-		//Float v = new valueOf(valor); //Float.valueOf((float)value).
+		Float v = Float.valueOf(valor); //Java 11
 		int idade = Integer.parseInt("27");
 		
 		
