@@ -1,5 +1,12 @@
 package algaworks.OO.parte2;
 
+/**
+ * Essa aula é referente ao curso de Java OO sobre o Encapsulamento
+ * 
+ * @author Wellington Rodrigues
+ *
+ */
+
 public class TesteEncapsulamento {
 
 	public static void main(String[] args) {
