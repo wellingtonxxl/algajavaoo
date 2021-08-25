@@ -8,6 +8,11 @@ package algaworks.OO.parte2;
  */
 
 public class TesteEncapsulamento {
+	
+	/**
+	 * 
+	 * @param args
+	 */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
