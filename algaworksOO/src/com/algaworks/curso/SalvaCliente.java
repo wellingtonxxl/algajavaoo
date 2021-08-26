@@ -5,7 +5,7 @@ import javax.swing.UIManager;
 
 import com.algaworks.curso.dao.ClienteDAO;
 import com.algaworks.curso.dao.DAOFactory;
-import com.algaworks.curso.modelo.Cliente;
+import com.algaworks.curso.dao.Cliente;
 
 public class SalvaCliente {
 
@@ -14,9 +14,11 @@ public class SalvaCliente {
 		Cliente cliente = new Cliente();
 		
 		String nome = JOptionPane.showInputDialog(null, "Nome do cliente", "Cadastro de cliente", JOptionPane.QUESTION_MESSAGE);
+		//int codigo = 1;
 		
 		if (nome != null) {
 			cliente.setNome(nome);
+			//cliente.setCodigo(codigo);
 		
 			ClienteDAO clienteDAO = DAOFactory.getDAOFactory().getClienteDAO();
 			clienteDAO.salvar(cliente);
