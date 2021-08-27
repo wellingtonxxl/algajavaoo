@@ -38,4 +38,8 @@ public class Fatura {
 		this.emailEnviado = emailEnviado;
 	}
 	
+	public void atualizarStatus() {
+		System.out.println("Atualizando status da fatura de valor R$ " +this.valor);
+	}
+	
 }
