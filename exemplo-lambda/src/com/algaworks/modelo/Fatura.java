@@ -42,4 +42,16 @@ public class Fatura {
 		System.out.println("Atualizando status da fatura de valor R$ " +this.valor);
 	}
 	
+	public boolean estaEmRisco() {
+		return valor >= 250 ? true : false;
+	}
+	
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "E-mail: " +emailDevedor+ ". Valor R$ " +valor;
+	}
+	
+	
 }

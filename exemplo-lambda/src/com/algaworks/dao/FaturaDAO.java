@@ -13,7 +13,7 @@ public class FaturaDAO {
 		List<Fatura> faturas = new ArrayList<>();
 		faturas.add(new Fatura("joao@joao.com", 350.0));
 		faturas.add(new Fatura("maria@maria.com", 270.0));
-		faturas.add(new Fatura("pedro@pedro", 380.0));
+		faturas.add(new Fatura("pedro@pedro", 120.0));
 		
 		return faturas;
 	}
